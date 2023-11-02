@@ -2,11 +2,11 @@
 	export let data = {};
 </script>
 
-<article class="mt-20 flex items-center rounded-3xl bg-stone-100 shadow-lg">
+<article class="mt-20 flex group odd:flex-row-reverse items-center rounded-3xl bg-stone-100 shadow-lg">
 	{#if data.images?.length > 0}
-		<img src={data.images[0]} alt="" class="max-w-lg rounded-l-3xl" />
+		<img src={data.images[0]} alt="" class="max-w-lg rounded-l-3xl group-odd:rounded-r-3xl group-odd:rounded-l-none" />
 	{/if}
-	<div class="ml-36">
+	<div class="grow p-28">
 		<header>
 			<p class="text-2xl font-normal">{data.brand || '-'}</p>
 			<h1 class="font-serif text-7xl font-bold">{data.name || '-'}</h1>
