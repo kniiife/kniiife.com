@@ -8,19 +8,14 @@
 	{/if}
 	<div class="ml-36">
 		<header>
-			<h1 class="font-serif text-4xl font-bold">{data.name || '-'}</h1>
-			<p class="text-2xl font-semibold italic">Brand: {data.brand || '-'}</p>
+			<p class="text-2xl font-normal">{data.brand || '-'}</p>
+			<h1 class="font-serif text-7xl font-bold">{data.name || '-'}</h1>
 		</header>
 		<div class="mt-4">
 			<p><span class="font-bold">Blade Length:</span> {data.bladeLength || '-'} 🗡</p>
-			<p><span class="font-bold">type:</span> {data.type || '-'}</p>
+			<p><span class="font-bold">Type:</span> {data.type || '-'}</p>
 			<p><span class="font-bold">Description:</span> {data.description || '-'}</p>
-			<p>
-				<span class="font-bold">URL:</span>
-				<a href={data.url || '#'} target="_blank" rel="noreferrer" class="text-orange-600 font-bold"
-					>{data.url || '-'}</a
-				>
-			</p>
+			<a href={data.url || '#'} target="_blank" rel="noreferrer" class="inline-block bg-red-800 text-white font-sans font-semibold mt-6 py-1 px-6 rounded-md">Learn More</a>
 		</div>
 	</div>
 </article>
