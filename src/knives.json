@@ -5,7 +5,10 @@
         "bladeLength": 0.68,
         "type": "Folding",
         "description": "locking",
-        "url": "https://www.gerbergear.com/en-us/shop/knives/all-knives/gdc-zip-blade-31-001742"
+        "url": "https://www.gerbergear.com/en-us/shop/knives/all-knives/gdc-zip-blade-31-001742",
+        "images": [
+            "/images/gdc-zip-blade.avif"
+        ]
     },
     {
         "brand": "SOG",
